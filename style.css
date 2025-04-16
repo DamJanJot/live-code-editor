@@ -1,0 +1,160 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /*    height: 120vh; */
+}
+
+
+
+#editor-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    resize: vertical;
+
+}
+
+
+textarea {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    resize: none;
+    outline: none;
+    min-width: 100px;
+
+}
+
+
+.button {
+    width: 24px;
+    height: 24px;
+}
+
+
+.editor {
+    flex: 1;
+    height: 100%;
+
+}
+
+
+
+.resizer {
+    width: 5px;
+    background: #ccc;
+    cursor: ew-resize;
+    position: relative;
+}
+
+.resizer:hover {
+    background: #888;
+}
+
+#preview-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+iframe {
+    width: 375px;
+    height: 647px;
+    border: 2px solid #ccc;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 24px;
+    padding: 15px;
+}
+
+#header {
+    background: #333;
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+}
+
+/*    ________________________________________________    */
+
+
+.color-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+input[type="text"],
+input[type="color"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #8372a1;
+}
+
+
+.copy-box:hover {
+    border-radius: 50%;
+}
+
+
+.bg {
+    width: 100%;
+    background-color: #ddd;
+    transition: 0.5s;
+}
+
+
+.square-1 {
+    background-color: rgb(15, 23, 42);
+
+}
+
+
+.square-1:hover ~ .bg {
+    background-color: rgb(10, 124, 145);
+    
+}
+
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur (20px);
+    backdrop-filter: blur (20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+
+
+.box-color {
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+}
+
+
