@@ -1,0 +1,8 @@
+# Przypisanie typów języków do odpowiednich plików
+*.php linguist-language=PHP
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Wyklucz folder z zapisanymi projektami (jeśli tam są tylko dane użytkownika)
+projects/** linguist-vendored
