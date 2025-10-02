@@ -1,6 +1,7 @@
 # Live Code Editor
 
-An interactive web-based code editor that allows you to write and preview HTML, CSS, and JavaScript live — all in one screen. It also includes a color picker, tools for copying ready-to-use colors, gradients, backgrounds, and Font Awesome icon library, to speed up your workflow. You can also save your work as named projects and reload them at any time for further editing.
+An interactive web-based code editor that allows you to write and preview HTML, CSS, and JavaScript live — all in one screen. 
+It also includes a color picker, tools for copying ready-to-use colors, gradients, backgrounds, and Font Awesome icon library, to speed up your workflow. You can also save your work as named projects and reload them at any time for further editing.
 
 ---
 
